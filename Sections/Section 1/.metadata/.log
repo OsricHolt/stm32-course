@@ -857,3 +857,56 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://s
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:83)
 !SUBENTRY 4 org.eclipse.equinox.p2.metadata.repository 4 1000 2025-09-14 11:21:05.286
 !MESSAGE No repository found at https://sw-center.st.com/stm32cubeide/eclipse/2023-09/updates/4.29.
+!SESSION 2025-09-15 19:58:56.453 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-15 19:59:06.015
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-15 19:59:06.016
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-15 19:59:09.191
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 19:59:09.586
+!MESSAGE Indexed '0_led_toggle_addr' (3 sources, 53 headers) in 0.343 sec: 1,952 declarations; 2,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-09-16 21:11:12.037 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-16 21:11:16.926
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-16 21:11:16.927
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-16 21:11:20.323
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-09-22 11:46:41.907 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-22 11:46:49.923
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-22 11:46:49.924
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-22 11:46:53.355
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-22 11:46:53.798
+!MESSAGE Indexed '0_led_toggle_addr' (3 sources, 53 headers) in 0.357 sec: 1,952 declarations; 2,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
