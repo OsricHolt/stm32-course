@@ -16,7 +16,7 @@ https://www.udemy.com/course/embedded-systems-bare-metal-programming/?couponCode
 - Serial Peripheral Interface (SPI)
 
 ## Sections/Lessons Completed:
--Section 1
+### Section 1:
   - Lesson 1: Completed
   - Lesson 2: Completed
   - Lesson 3: Completed
