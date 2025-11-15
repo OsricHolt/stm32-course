@@ -24,4 +24,7 @@ https://www.udemy.com/course/embedded-systems-bare-metal-programming/?couponCode
   - Lesson 5: Completed
   - Lesson 6: Completed
   - Lesson 7: Completed
-  - Lesson 8: In Progress
+  - Lesson 8: Completed
+
+### Section 2:
+  - Lesson 1: In Progress
