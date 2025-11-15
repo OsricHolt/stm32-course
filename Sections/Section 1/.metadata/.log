@@ -929,3 +929,217 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-09-22 14:53:43.828
 !MESSAGE Indexed '0_led_toggle_addr' (3 sources, 53 headers) in 0.353 sec: 1,952 declarations; 2,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-09-24 17:16:28.816 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-24 17:16:31.856
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-24 17:16:31.857
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-24 17:16:35.144
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-24 17:16:35.554
+!MESSAGE Indexed '0_led_toggle_addr' (3 sources, 53 headers) in 0.346 sec: 1,955 declarations; 2,894 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.041%)
+!SESSION 2025-09-26 13:04:59.969 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-26 13:05:02.816
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-26 13:05:02.817
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-26 13:05:06.106
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-09-26 15:34:39.848
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 10 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.st.microxplorer.plugins.userauth.WebApp.startREACTclient(WebApp.java:595)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:226)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:779)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:489)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:191)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2025-09-26 15:34:39.849
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'com.st.stm32cube.ide.mcu.ide' plug-in.
+!STACK 0
+com.teamdev.jxbrowser.navigation.TimeoutException: Failed to complete the navigation within 10 seconds.
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadAndWait(NavigationImpl.java:232)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:104)
+	at com.teamdev.jxbrowser.navigation.internal.NavigationImpl.loadUrlAndWait(NavigationImpl.java:91)
+	at com.st.microxplorer.plugins.userauth.WebApp.startREACTclient(WebApp.java:595)
+	at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:226)
+	at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:779)
+	at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:489)
+	at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:191)
+	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-26 17:25:52.241
+!MESSAGE Indexed '1_led_toggle_addr_struct' (3 sources, 22 headers) in 0.286 sec: 376 declarations; 1,135 references; 8 unresolved inclusions; 0 syntax errors; 16 unresolved names (1%)
+!SESSION 2025-09-28 14:56:29.704 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-28 14:56:32.655
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-28 14:56:32.656
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-28 14:56:36.037
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 14:56:36.353
+!MESSAGE Indexed '0_led_toggle_addr' (3 sources, 53 headers) in 0.258 sec: 1,955 declarations; 2,894 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.041%)
+!SESSION 2025-09-28 20:44:26.651 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\0_led_toggle_addr\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-28 20:44:29.215
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-28 20:44:29.216
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-28 20:44:32.311
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-28 20:44:32.721
+!MESSAGE Indexed '0_led_toggle_addr' (3 sources, 53 headers) in 0.349 sec: 1,955 declarations; 2,894 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.041%)
+!SESSION 2025-10-01 14:12:32.970 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-01 14:12:35.756
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-01 14:12:35.757
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-01 14:12:39.191
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-01 14:12:39.496
+!MESSAGE Indexed '1_led_toggle_addr_struct' (3 sources, 53 headers) in 0.256 sec: 1,955 declarations; 2,894 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.041%)
+!SESSION 2025-10-18 20:35:47.718 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-18 20:35:50.684
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-18 20:35:50.685
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-18 20:35:54.279
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-18 20:35:54.686
+!MESSAGE Indexed '1_led_toggle_addr_struct' (3 sources, 53 headers) in 0.349 sec: 1,955 declarations; 2,894 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.041%)
+!SESSION 2025-11-08 18:59:07.378 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-08 18:59:10.189
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-08 18:59:10.190
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-08 18:59:13.481
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-08 18:59:13.877
+!MESSAGE Indexed '1_led_toggle_addr_struct' (3 sources, 53 headers) in 0.337 sec: 1,955 declarations; 2,894 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.041%)
+!SESSION 2025-11-12 19:12:51.351 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-12 19:12:54.280
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-12 19:12:54.281
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-12 19:12:57.792
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-12 19:12:58.224
+!MESSAGE Indexed '1_led_toggle_addr_struct' (3 sources, 53 headers) in 0.368 sec: 1,966 declarations; 2,903 references; 0 unresolved inclusions; 1 syntax errors; 11 unresolved names (0.23%)
+!SESSION 2025-11-14 22:52:40.486 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\1_led_toggle_addr_struct\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-14 22:52:43.321
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-14 22:52:43.323
+!MESSAGE Log4j2 initialized with config file C:\Users\OSGOD\Desktop\Embedded Systems\Udemy STM32\Sections\Section 1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-14 22:52:46.601
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-14 22:52:46.996
+!MESSAGE Indexed '1_led_toggle_addr_struct' (3 sources, 53 headers) in 0.326 sec: 1,966 declarations; 2,903 references; 0 unresolved inclusions; 1 syntax errors; 11 unresolved names (0.23%)
